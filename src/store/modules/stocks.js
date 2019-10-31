@@ -8,9 +8,10 @@ const mutations = {
     'SET_STOCKS'(state, stocks) {
         state.stocks = stocks;
     },
-    // eslint-disable-next-line no-unused-vars
     'RND_STOCKS'(state) {
-
+        state.stocks.forEach(stock => {
+            stock.price = Math.round(stock.price * (0.5 + Math.random()));
+        })
     }
 }
 
