@@ -1,4 +1,5 @@
 # stock_trader
+project live at: [App](https://vuejstradingapp.firebaseapp.com/)
 
 ## Project setup
 ```
