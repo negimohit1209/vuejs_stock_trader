@@ -59,7 +59,7 @@ export default {
       this.$http.put('data.json', data);
     },
     loadData(){
-      this.fetchData();
+      this.fetchData()
     }
   }
 }
